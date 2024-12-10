@@ -100,6 +100,7 @@
             buttonDone_KDY.TabIndex = 9;
             buttonDone_KDY.Text = "Выполнить";
             buttonDone_KDY.UseVisualStyleBackColor = true;
+            buttonDone_KDY.Click += buttonDone_KDY_Click;
             buttonDone_KDY.Enter += buttonDone_KDY_Click;
             // 
             // buttonHelp_KDY
@@ -110,6 +111,7 @@
             buttonHelp_KDY.TabIndex = 10;
             buttonHelp_KDY.Text = "?";
             buttonHelp_KDY.UseVisualStyleBackColor = true;
+            buttonHelp_KDY.Click += buttonHelp_KDY_Click;
             buttonHelp_KDY.Enter += buttonHelp_KDY_Click;
             // 
             // FormMain
