@@ -120,6 +120,7 @@
             buttonDone_KDY.TabIndex = 4;
             buttonDone_KDY.Text = "Выполнить";
             buttonDone_KDY.UseVisualStyleBackColor = true;
+            buttonDone_KDY.Click += buttonDone_KDY_Click;
             // 
             // FormMain
             // 
